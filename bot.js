@@ -18,7 +18,6 @@ const moment = require("moment");
 moment.locale("tr")
 const chalk = require("chalk");
 require("./util/eventLoader")(client);
-require('./keep_alive.js')
 
 var prefix = ayarlar.prefix;
 
