@@ -144,8 +144,8 @@ client.on("guildMemberAdd", async (member) => {
   
   
   client.on("guildMemberAdd", member => {  
-      const kanal = member.guild.channels.cache.find(r => r.id === '795703271020691456');
-      const register = `<@&795702938202406924>`
+      const kanal = member.guild.channels.cache.find(r => r.id === 'REGİSTER KANAL ID');
+      const register = `<@&TEYİTÇİ ROL ID>`
       let los = client.users.cache.get(member.id);
       require("moment-duration-format");
         const kurulus = new Date().getTime() - los.createdAt.getTime();  
@@ -156,16 +156,16 @@ client.on("guildMemberAdd", async (member) => {
         if(üs) {
           üyesayısı = üyesayısı.replace(/([0-9])/g, d => {
             return {
-              '0': `<a:0_:793841636190584863>`,
-              '1': `<a:1_:793841648475176960>`,
-              '2': `<a:2_:793841649028956190>`,
-              '3': `<a:3_:793841650345967636>`,
-              '4': `<a:4_:793841649918410793>`,
-              '5': `<a:5_:793841649947246603>`,
-              '6': `<a:6_:793841650790170624>`,
-              '7': `<a:7_:793841650652676096>`,
-              '8': `<a:8_:793841650803015682>`,
-              '9': `<a:9_:795909270960472064>`}[d];
+              '0': ``,
+              '1': ``,
+              '2': ``,
+              '3': ``,
+              '4': ``,
+              '5': ``,
+              '6': ``,
+              '7': ``,
+              '8': ``,
+              '9': ``}[d];
             })
           }
     
@@ -176,8 +176,8 @@ client.on("guildMemberAdd", async (member) => {
 const embed = new Discord.MessageEmbed()
 .setTitle("Skyvester'a Hoşgeldin")
 .setThumbnail(member.user.avatarURL({dynamic: true}))
-.setDescription(`<a:morkitap:793841630460379168> Skyvester'a Hoşgeldin <@${los.id}> !\n\n<a:yildiz:793841632881279008> Seninle beraber sunucumuz `  + üyesayısı +  ` kişiye ulaştı.\n\n<a:good6:793841629936746496> ` + kontrol + `\n\n<a:dikkat:793841629206806539> <@&795702938202406924> Rolündeki yetkililer seninle ilgilenecektir.\n\n<a:alev:793841628665610250> Kaydını tamamlamak için herhangi bir \`ꏪ The Dark Forest\` odalarından birine girmen yeterlidir.\n\n<a:duyuru:793841629857054791> Tagımızı alarak \`ꏪ\` ailemizin bir parçası olabilirsin.`)
-.setFooter("Losint ♥ Skyvester")
+.setDescription(`<a:morkitap:793841630460379168> Sunucu Adı'na Hoşgeldin <@${los.id}> !\n\n<a:yildiz:793841632881279008> Seninle beraber sunucumuz `  + üyesayısı +  ` kişiye ulaştı.\n\n<a:good6:793841629936746496> ` + kontrol + `\n\n<a:dikkat:793841629206806539> <@&795702938202406924> Rolündeki yetkililer seninle ilgilenecektir.\n\n<a:alev:793841628665610250> Kaydını tamamlamak için herhangi bir \`ꏪ The Dark Forest\` odalarından birine girmen yeterlidir.\n\n<a:duyuru:793841629857054791> Tagımızı alarak \`ꏪ\` ailemizin bir parçası olabilirsin.`)
+.setFooter("Losint ♥ Code")
 .setColor("RANDOM")
 kanal.send(register)
 kanal.send(embed)
