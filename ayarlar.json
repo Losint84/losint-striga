@@ -1,0 +1,34 @@
+{
+  "prefix" : "PREFIX GİR",
+  
+  "sahip" : "SAHIP ID GİR",
+  
+  "token" : " O DEĞERLİ TOKENİNİN GİR",
+  
+  "botVoiceChannelID" : "BOT SES KANALI ID GİR",
+  
+  "Guild" : "SUNUCU ID GİR",
+   
+  
+  "tag" : "TAG GİR",
+  
+  
+  "booster" : "BOOSTER ROL ID",
+  "unregister" : "KAYITSIZ ROL ID",
+  "jailRol" : "JAIL ROL ID",
+  "şüpheli" : "ŞÜPHELİ ROL İD",
+  "tagRol" : "TAG ROL ID",
+  "emojiisim" : "EMOJİ İSMİ YAZ",
+  
+  "KayıtYetkilisi" : "KAYIT SORUMLUSU ROL ID",
+
+  
+  
+  "genelChat" : "CHAT KANAL ID",  
+  "kayitLog" : "KAYIT LOG ID",
+  "KayıtChat" : "KAYIT KANAL ID",
+  "tagLog" : "TAG LOG ID"
+ 
+  
+  
+}
