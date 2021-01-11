@@ -6,7 +6,6 @@ module.exports.run = async (client, message, users, args) => {
     .setTitle(`${client.user.username} - Komutlar`)
     .setDescription(`**\`Genel\`**
     » \`.say\`: **Sunucunun İstatistiklerini Gösterir**
-    » \`.kbilgi\`: **Kullanıcının Bilgisini Gösterir**
     
     **\`Yetkili\`**
     » \`.erkek/kız <isim> <yas>\`: **Belirtilen Kullanıcıyı Kayıt Edersiniz**
