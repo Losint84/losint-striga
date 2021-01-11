@@ -11,6 +11,7 @@ if(![(ayar.teyitçi)].some(role => message.member.roles.cache.get(role)) && !mes
 let tag = (ayar.tag)
 const numara = await data.fetch('case')
 const kayıtlı = (ayar.kadınrol)
+const kayıtlı = (ayar.kadınrol2)
 const kayıtsız = (ayar.kayitsiz)
 const chat = message.guild.channels.cache.find(r => r.id === (ayar.chat))
 const kanal = message.guild.channels.cache.find(r => r.id === (ayar.kayıtkanal))
@@ -32,6 +33,7 @@ if(!yas) return message.reply('Yaş Belirt.')
 //İSİM - ROL DEĞİŞME
 losxstg.setNickname(`${tag} ${isim} | ${yas}`)  
 losxstg.roles.add(kayıtlı)
+losxstg.roles.add(kayıtlı2)
 losxstg.roles.remove(kayıtsız)
 
 //DB LER
